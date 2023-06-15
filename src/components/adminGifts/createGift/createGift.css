@@ -1,0 +1,28 @@
+.create-gift-form-container{
+     /* border:1px solid red; */
+     margin-top: 8px;
+     height: 340px;
+     width: 700px;
+     border-radius: 22px;
+     background-color: var(--background-color);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 10px;
+}
+
+.giftImageContainer{
+    /* border:1px solid red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: var(--background-color);
+}
+
+.gift-preview-image{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

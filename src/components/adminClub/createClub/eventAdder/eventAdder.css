@@ -1,0 +1,111 @@
+.event-adder-title{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    font-family: monospace;
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.event-adder-club-label-container{
+    width: 200px;
+    height: 30px;
+    margin:20px;
+    font-family: monospace;
+    color: var(--title-color);
+    font-size: 16px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+}
+
+.event-adder-club-input-container{
+       /* border:1px solid red; */
+    width: 350px;
+    height: 35px;
+    border-radius: 22px;
+    background-color:  var(--background-color);
+    padding-left: 12px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.6);
+    color: var(--title-color);
+    font-family: monospace;
+    border: none;
+}
+
+.event-adder-image-container{
+    /* border:1px solid rgb(34, 0, 255); */
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.event-adder-image-box{
+    /* border:1px solid red; */
+    width: 180px;
+    height: 100px;
+    margin-inline: 18px;
+    border-radius: 22px;
+    border: 1px solid var(--title-color-medium);
+    background-color: var(--background-color);
+}
+
+.event-adder-image-box-left{
+    /* border:1px solid red; */
+    height: 100%;
+    width: 60%;
+}
+
+.event-adder-image-box-right{
+    /* border:1px solid red; */
+    height: 100%;
+    width: 39.5%;
+    font-family: monospace;
+    color: var(--title-color);
+}
+
+.event-adder-separator{
+    height: 100%;
+    width: 0.5%;
+    background-color: var(--title-color-medium);
+}
+
+.contact-image{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70%;
+}
+
+.contact-id{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+}
+
+.contact-id-input-container-for-event{
+    /* border:1px solid red; */
+    width: 110px;
+    height: 30px;
+    background-color: transparent;
+    padding: 12px;
+    border-top: 1px solid var(--title-color-medium);
+}
+
+.event-credentials-upload-container{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 30px;
+}
+
+.final-event-submission-button-container{
+    /* border:1px solid red; */
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.6);
+    font-family: monospace;
+    color: var(--title-color);
+}

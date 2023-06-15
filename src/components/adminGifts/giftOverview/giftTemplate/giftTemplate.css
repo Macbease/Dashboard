@@ -1,0 +1,19 @@
+.gift-order-template{
+    /* border: 1px solid red; */
+    height: 60px;
+    border-radius: 12px;
+    background-color: var(--background-color);
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.7);
+    font-weight: bold;
+    color: var(--title-color-medium);
+    font-family: monospace;
+    margin-top: 12px;
+}
+
+.order-indicator{
+    /* border:1px solid red; */
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    opacity: 0.6;
+}

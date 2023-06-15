@@ -1,0 +1,9 @@
+#root{
+    --collection-shadow: rgba(245,222,178, 0.8) 0px 3px 12px;
+    --background-color:rgba(245,222,178, 0.06) ;
+    --title-color-inactive:rgb(245, 222, 178,0.6);
+    --title-color-medium:rgb(244, 192, 152);
+    --background-color-active:rgba(245,222,178, 0.50) ;
+     --title-color:rgb(245, 225, 190);
+     /* --title-color:white; */
+}

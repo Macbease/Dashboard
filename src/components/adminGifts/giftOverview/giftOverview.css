@@ -1,0 +1,70 @@
+.gift-overview-container{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.left-container-gift-overview{
+    /* border:1px solid red; */
+    width: 50%;
+    height: 100%;
+}
+
+.left-container-gift-overview-title{
+    /* border: 1px solid red; */
+    font-weight: bold;
+    color: var(--title-color);
+    font-family: monospace;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.right-container-gift-overview{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+}
+
+.recent-gift-orders-container{
+    /* border: 1px solid red; */
+    height: 415px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 18px;
+}
+
+.giftCard-container{
+    /* border:1px solid red; */
+    width: 180px;
+    height: 250px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+}
+
+.giftCard-image-container{
+    /* border:1px solid red; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.7);
+}
+
+.giftCard-data-container{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+    border-radius: 22px;
+}
+
+.giftCard-data-tab{
+    /* border:1px solid red; */
+    height: 25px;
+    width: 120px;
+    margin-top: 8px;
+    border-radius: 12px;
+    color: var(--title-color-medium);
+    font-size: 14px;
+     background-color: var(--background-color);
+}

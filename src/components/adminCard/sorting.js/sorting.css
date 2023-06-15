@@ -1,0 +1,191 @@
+.sorting-container{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.unsorted-container{
+    /* border:1px solid yellow; */
+    height: 100%;
+    width: 30%;
+}
+
+.unsorted-container-title{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 10%;
+    color: var(--title-color);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.unsorted-container-scroll{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+    margin-top: 12px; /* Firefox */
+}
+
+.unsorted-container-scroll::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+.previewContainer{
+    /* border:1px solid yellow; */
+    height: 100%;
+    width: 30%;
+}
+
+.unsorted-word-container{
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 52px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.5);
+    color: var(--title-color-medium);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.keywords-container{
+    /* border: 1px solid red; */
+    width: 300px;
+    height:70%;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+}
+
+.keywords-container-title{
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    font-family: monospace;
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.keywords-container-scroll{
+    /* border: 1px solid red; */
+    height: 85%;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-top: 5%;
+    padding-bottom: 12px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.keywords-container-scroll::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+.keyword-preview-container{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: var(--background-color);
+    font-family: monospace;
+    color: var(--title-color);
+}
+
+.sorting-button{
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 10px;
+    background-color: var(--background-color);
+}
+
+.confirmation-container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 85%;
+    border-radius: 22px;
+    color: var(--title-color);
+    font-family: monospace;
+    background-color: var(--background-color);
+}
+
+.confirmation-container-title{
+    /* border:1px solid red; */
+    height: 60px;
+    text-align: center;
+}
+
+.confirmation-container-button{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.confirmation-button{
+    /* border: 1px solid red; */
+    width: 120px;
+    height: 40px;
+    margin-left: 22px;
+    margin-right: 22px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+}
+
+.create-bag-container{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.bag-name-container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height:50%;
+    color: var(--title-color-medium);
+    font-family: monospace;
+}
+
+
+.bag-name-input{
+    /* border: 1px solid red; */
+    margin-top: 12px;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    padding: 6px;
+    padding-left: 12px;
+    border-radius: 22px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.4);
+}
+
+.unsorted-word-delete{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 100%;
+}
+
+.unsorted-word-text{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 100%;
+}

@@ -1,0 +1,33 @@
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+.available-container{
+    /* border: 1px solid red; */
+    width: 180px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 12px;
+    border-radius: 12px;
+    font-family: monospace;
+    color:var(--title-color-medium);
+     background-color: var(--background-color);
+}
+
+.availableMark{
+    /* border: 1px solid red; */
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    background-color: green;
+}

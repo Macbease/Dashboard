@@ -1,0 +1,58 @@
+.create-prop-form-container{
+    /* border:1px solid red; */
+    width: 550px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+    padding-bottom: 40px;
+}
+
+.create-prop-form-title{
+    /* border:1px solid red; */
+    width: 550px;
+    height: 80px;
+    font-family: monospace;
+    color: var(--title-color);
+    font-size: 22px;
+    margin-top: 30px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+}
+
+.create-prop-form-label{
+    /* border:1px solid red; */
+    width: 280px;
+    height: 30px;
+    border-radius: 22px;
+    font-family: monospace;
+    color: var(--title-color);
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: var(--background-color);
+}
+
+.create-prop-form-input{
+    /* border:1px solid red; */
+    width: 320px;
+    height: 30px;
+    border-radius: 22px;
+    font-family: monospace;
+    color: var(--title-color);
+    background: transparent;
+    padding: 12px;
+    margin-top: 20px;
+     background-color: var(--background-color);
+}
+
+.create-prop-form-button{
+    /* border:1px solid red; */
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 22px;
+    font-family: monospace;
+    color:var(--title-color);
+    font-size: 16px;
+    background-color: var(--background-color);
+}

@@ -1,0 +1,39 @@
+.delete-gift-image-container{
+    /* border:1px solid red; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+     box-shadow: 5px 5px 25px rgba(0,0,0,0.7)
+}
+
+.delete-gift-name{
+    margin-top: 12px;
+    font-family: monospace;
+    font-size: 18px;
+    color: var(--title-color);
+}
+
+.delete-gift-message{
+    margin-top: 28px;
+    font-family: monospace;
+    font-size: 16px;
+    color: var(--title-color);
+}
+
+.delete-gift-buttons{
+    /* border:1px solid red; */
+    width: 500px;
+    height: 50px;
+    margin-top: 22px;
+}
+
+.delete-gift-button{
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 35px;
+    border-radius: 22px;
+    background-color: var(--background-color);
+    font-size: 16px;
+    font-family: monospace;
+    color: var(--title-color);
+}

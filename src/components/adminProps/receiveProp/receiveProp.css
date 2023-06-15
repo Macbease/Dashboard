@@ -1,0 +1,25 @@
+.day-or-night-receive{
+    /* border:1px solid red; */
+    width: 350px;
+    height: 40px;
+    margin-top:10px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+.radio-dayOrnight-button{
+    /* border:1px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100px;
+    color: var(--title-color);
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+}

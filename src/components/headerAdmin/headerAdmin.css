@@ -1,0 +1,104 @@
+.admin-header-button-container{
+    background:rgba(245, 237, 238, 0.1) ;
+    margin-left:12px;
+    height: 37px;
+    width: 80px;
+    border-radius: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--title-color);
+    font-family: monospace;
+}
+
+.header{
+    width:100%;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: var(--background-color);
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.header-logo{
+    margin-left: 18px;
+    height: 120px;
+    width: 120px;
+    /* border: 1px solid white; */
+}
+
+.header-left{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+}
+
+.icon-container{
+    background:rgba(245, 237, 238, 0.1) ;
+    margin-left:12px;
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.icon-container:hover{
+     background:rgba(245, 237, 238, 0.2) ;
+     animation: rotate 0.5s linear;
+}
+
+@keyframes rotate{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(90deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(270deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+.profile-wrapper{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+
+.profile-wrapper:hover{
+    transform: scale(1.2);
+    
+}
+
+.icon{
+    color:wheat;
+    /* padding:16px; */
+}
+
+.profile-image{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%; 
+}
+
+.whites{
+    color:white;
+}

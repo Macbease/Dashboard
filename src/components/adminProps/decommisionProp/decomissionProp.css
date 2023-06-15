@@ -1,0 +1,17 @@
+/* rest of the classes are derived from createProp form/ */
+.decommission-reason-input{
+    /* border:1px solid red; */
+    width: 280px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 22px;
+    background: transparent;
+    padding: 12px;
+    color:var(--title-color);
+    font-family: monospace;
+}
+
+.decommission-reason-input:focus{
+    /* border:none; */
+    outline: none;
+}
