@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './createProp.css';
 import axios from 'axios';
+import { url } from "../../../assets/constants/data";
 
 export default function CreateProp({ setActiveState }) {
     const [name, setName] = useState();
