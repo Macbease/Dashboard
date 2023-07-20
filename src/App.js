@@ -10,6 +10,8 @@ import AdminProps from '../src/components/adminProps';
 import AdminGifts from '../src/components/adminGifts';
 import AdminCard from '../src/components/adminCard';
 import AdminLogin from './components/admin';
+import AdminCommunity from './components/adminCommunity';
+import AdminContent from './components/adminContent';
 
 function App() {
   const [isAuthenticating, setIsAuthenticating] = useState("yes");
@@ -63,6 +65,10 @@ const getCorrectScreen = (activeTab, setActiveTab) => {
       return <AdminGifts setActiveTab={setActiveTab} />
     case "Cards":
       return <AdminCard setActiveTab={setActiveTab} />
+    case "Community":
+      return <AdminCommunity setActiveTab={setActiveTab} />
+    case "Content":
+      return <AdminContent setActiveTab={setActiveTab} />
     default:
       return <AdminHome setActiveTab={setActiveTab} />
   }

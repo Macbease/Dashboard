@@ -15,6 +15,8 @@ export default function AdminHeader({ activeTab, setActiveTab }) {
                 <div className="admin-header-button-container hover-effect" onClick={() => setActiveTab("Props")} style={activeTab === "Props" ? { border: "1px solid var(--title-color)" } : { border: "none" }}>Props</div>
                 <div className="admin-header-button-container hover-effect" onClick={() => setActiveTab("Gifts")} style={activeTab === "Gifts" ? { border: "1px solid var(--title-color)" } : { border: "none" }}>Gifts</div>
                 <div className="admin-header-button-container hover-effect" onClick={() => setActiveTab("Cards")} style={activeTab === "Cards" ? { border: "1px solid var(--title-color)" } : { border: "none" }}>Cards</div>
+                <div className="admin-header-button-container hover-effect" onClick={() => setActiveTab("Community")} style={activeTab === "Community" ? { border: "1px solid var(--title-color)" } : { border: "none" }}>Community</div>
+                <div className="admin-header-button-container hover-effect" onClick={() => setActiveTab("Content")} style={activeTab === "Content" ? { border: "1px solid var(--title-color)" } : { border: "none" }}>Content</div>
                 <div className="profile-wrapper">
                     <img src={profile} alt="Profile" className='profile-image' />
                 </div>
